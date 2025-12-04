@@ -5,8 +5,6 @@ function getUserDetails(id){
         },2000);
     })
 };
-
-
 const myfun=async()=>{
     console.log("123");
     const result=await getUserDetails("123");

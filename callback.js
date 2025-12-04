@@ -9,6 +9,9 @@ function getUserSubjects(userRoll,getUserMarks){
 function getUserMarks(userSubId){
     console.log("getting user marks with subID",userSubId);
 }
+
+
+
 getUserDetails("123",function(userRoll){
     getUserSubjects(userRoll,function(userSubId){
         getUserMarks(userSubId)
